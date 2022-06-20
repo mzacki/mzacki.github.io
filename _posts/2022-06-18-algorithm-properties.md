@@ -2,7 +2,12 @@
 layout: post
 title:  "What properties should have an algorithm?"
 date:   2022-06-18 12:27:11 +0200
-categories: algorithm computer_science
+categories: algorithms computer_science
+tags:
+
+- algorithm
+- programming
+
 ---
 For every computer programmer (and computer scientist) it is good to know
 what are the properties of a well-written algorithm. Here they are - good algorithm should be:
