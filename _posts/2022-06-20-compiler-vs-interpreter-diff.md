@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Compiler vs interpreter
+title:  "Compiler vs interpreter"
 date:   2022-06-20 19:31
 description: Compiler and interpreter - differences in simple words
-categoris: computer_science
+categories: computer_science
 tags:
 
 - compiler
