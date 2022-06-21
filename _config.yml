@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: M. Zacki engineer's notes
+title: Mateusz Zacki | notes
 email: zacki[dot]mateusz[at]gmail[dot]com
 description: >- # this means to ignore newlines until "baseurl:"
   Java, Python, Groovy and more.
