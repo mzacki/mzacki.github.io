@@ -20,9 +20,12 @@ tags:
 I came across several resources while creating this blog.
 List will be updated accordingly.
 
-Intellij Idea config for Jekyll blogging and markdown use:
+- Intellij Idea config for Jekyll blogging and markdown use:
 https://pavelmakhov.com/2017/11/idea-for-jekyll-blogging/
-- how to create post file template in IntelliJ Idea (tested, works)
+  - how to create post file template in IntelliJ Idea (tested, works)
+
+- Official GitHub manual:
+https://docs.github.com/en/pages/quickstart
 
 ### Simplistic theme
 
