@@ -58,9 +58,9 @@ same name and parameters? They are clashing. Our class simply does not know whic
 ### Diamond inheritance is a problem
 
 This problem has to be resolved. How?
-- the implementing class must override the clashing method and provides a custom implementation - 
-now it would be clear which method to call and what is its meaning;
+- the implementing class must override the clashing method and to provide a custom implementation - 
+then it would be clear which method to call and what is the meaning;
 - or instead of providing own implementation, the implementing class can clearly call one of the interfaces and methods
-with the keyword "super", so that we know what method is called.
+with the keyword "super" (in the body of the problematic method), so that we know what method should be called.
 
 
