@@ -4,26 +4,26 @@ title: About
 permalink: /about/
 ---
 
-### Toolkit & work environment
+## Toolkit & work environment
 
-## languages
+### languages
 
 Java, Python, Groovy. Basic level SQL.
 Plan to learn Scala or some low-level language.
 
-## testing
+### testing
 
 Groovy & Spock (UT, IT, E2E). Cucumber & Gherkin for BDD. 
 Thinking about Python. Preferably not JUnit.
 
-## OS
+### OS
 
 Linux et consortes. MacOS if I have to. No Windows, please.
 
-## VCS & repo
+### VCS & repo
 
 Love Git and GitHub. Bitbucket is also fine.
 
-## Commodore or Atari?
+### Commodore or Atari?
 
 I had a C-64. Played a bit with Atari, but I had always dreamt of Amiga 1200.
