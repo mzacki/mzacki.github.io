@@ -27,6 +27,8 @@ List will be updated accordingly.
 - Official GitHub manual:
  [Schnellstart, Anfang und Fortshritt](https://docs.github.com/en/pages/quickstart)
 
+- Quick cheet sheet on markdown, also nice [Minimal Mistakes theme](https://thinkreen.github.io/markdown/markdown-cheatsheets/)
+
 ### Simplistic theme
 
 This website is using the base Jekyll theme - Minima (at least so far). 
