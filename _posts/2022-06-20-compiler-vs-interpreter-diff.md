@@ -41,6 +41,6 @@ But what are the differences?
 - does not include code optimization - as optimization is a time-consuming process
 - takes place when program / script is running (during runtime)
 
-I found this easy-to-understand explanation in a 20-years-old book: "Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych" (2022)
+I found this easy-to-understand explanation in a 20-years-old book: "Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych" (2002)
 by Mirosław Hajder, Heorhii Loutski and Wiesław Stręciwilk. It is still an up-to-date knowledge source for computer programmers.
 Some chapters are very easy, some others contain a lot of mathematics, formulas and computer science theory. Overall, a nice introduction into several areas of computer science.
