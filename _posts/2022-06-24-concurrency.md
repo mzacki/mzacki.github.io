@@ -56,8 +56,51 @@ but **the object itself can be still modified**. One can create an immutable obj
 ### Example from e-commerce
 
 When more than one thread is trying to change the state of an object at the very same moment, there is always a problem.
-A simple example of understocking or inadequate inventory values - a common issue in poorly managed online stores.
+A simple example of understocking or inadequate inventory values - a common issue in poorly managed online stores - 
+called **a lost update** by computer scientists.
 Forgive the lack of a design-pattern approach.
+
+```java
+package edu.ant.patterns.basic.concurrency;
+
+public class StockLevel {
+
+    // suppose it's empty or has low stock level
+    private int currentInventory;
+
+    public StockLevel(int initInventory) {
+        this.currentInventory = initInventory;
+    }
+
+    public boolean poll(int quantity) {
+        // STEP 2:
+        // THREAD #2 concurrently enters the method...
+        if (currentInventory >= quantity) {
+            // STEP 3:
+            // THREAD #2 evaluates condition to true as THREAD #1 has not managed to update the inventory yet
+
+            // STEP 0:
+            // BOTTLENECK!
+            // if store engine or database lags (heavy workload, multiple users, fetching upstream data, sourcing downstream data)
+            // inventory update may be delayed
+
+            //  STEP 1:
+            //  THREAD #1 delays the update of current inventory
+            currentInventory = currentInventory - quantity;
+
+            Warehouse.fetchItem();
+            // STEP 4:
+            // RISK OF UNDERSTOCKING!!!
+            // both threads fetch product from warehouse
+            // THREAD #2 does not know the true level of inventory
+            return true;
+        }
+        return false;
+    }
+
+}
+
+```
 
 ### What is a lock?
 
@@ -76,7 +119,13 @@ After the operation, the object backs to consistent state and the thread release
 **Important**: if there exists another thread accessing the same object, but through a non-synchronized method,
 there is a possibility of concurrent modification / reading inconsistent state.
 
+### Optimistic vs pessimistic lock
 
+Both are ways to prevent **a lost update** to happen.
+
+**Optimistic lock**: checks whether a value to be updated has not been changed since last read.
+
+**Pessimistic lock**: explicitly forces other threads to wait until an update is done.
 
 
 

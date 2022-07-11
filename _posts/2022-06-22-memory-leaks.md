@@ -47,7 +47,7 @@ You can find the code on my GitHub repo [Java Patterns](https://github.com/mzack
 According to the authors, another potential source of a memory leak can be ```HashMap``` if it lives longer than objects
 contained into it. Then it keeps the references.
 
-```
+```java
 package edu.ant.patterns.basic.internals;
 
 /**
