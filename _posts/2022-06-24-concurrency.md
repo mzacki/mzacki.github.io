@@ -65,7 +65,7 @@ package edu.ant.patterns.basic.concurrency;
 
 public class StockLevel {
 
-    // suppose it's empty or has low stock level
+    // suppose it is empty or has low stock level
     private int currentInventory;
 
     public StockLevel(int initInventory) {
