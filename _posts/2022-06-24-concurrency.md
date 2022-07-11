@@ -14,9 +14,9 @@ tags:
 
 ---
 
-### Thread state values
+### Thread state values 
 
-Enum ```Thread.State```: a thread can have one of the following statuses:
+Enum ```Thread.State```
 
 ```NEW```
 
@@ -47,10 +47,10 @@ A thread completed execution. ```run()``` method exited or throwed an exception.
 
 - Every thread has its own **stack**, but all threads share the same **heap** and  **address space** in memory.
 - For threads, objects are **visible by default** - basically, every thread can access any given object by a reference or a copy of this reference. 
-**Reference** is a pointer to a location in memory (where an object has been located).
+**A reference** is a pointer to a location in memory (where an object has been located).
 - Objects are generally **mutable**.  If a reference variable is **final**, it cannot be changed by pointing to another object, 
 but **the object itself can be still modified**. One can create an immutable object, but it is a different story.
-- The keyword ```synchronized```helps make code *thread safe* (or *concurrently safe*), **but it is not enough**.
+- The keyword ```synchronized``` helps make code *thread safe* (or *concurrently safe*), **but it is not enough**.
 - Thread safety is **not only** about **writing** operation on objects: it is also concerns **reading** objects and data **consistency**.
 
 ### Example from e-commerce
@@ -58,51 +58,6 @@ but **the object itself can be still modified**. One can create an immutable obj
 When more than one thread is trying to change the state of an object at the very same moment, there is always a problem.
 A simple example of understocking or inadequate inventory values - a common issue in poorly managed online stores.
 Forgive the lack of a design-pattern approach.
-
-```
-package edu.ant.patterns.basic.concurrency;
-
-public class StockLevel {
-
-    // suppose it's empty or has low stock level
-    private int currentInventory;
-
-    public StockLevel(int initInventory) {
-        this.currentInventory = initInventory;
-    }
-
-    public boolean poll(int quantity) {
-        // STEP 2:
-        // THREAD #2 concurrently enters the method...
-        if (currentInventory >= quantity) {
-            // STEP 3:
-            // THREAD #2 evaluates condition to true 
-            // as THREAD #1 has not managed to update the inventory yet
-
-            // STEP 0:
-            // BOTTLENECK!
-            // if store engine or database lags (heavy workload, 
-            // multiple users, 
-            // fetching upstream data, sourcing downstream data),
-            // inventory update may be delayed
-
-            //  STEP 1:
-            //  THREAD #1 delays the update of current inventory
-            currentInventory = currentInventory - quantity;
-
-            Warehouse.fetchItem();
-            // STEP 4:
-            // RISK OF UNDERSTOCKING!!!
-            // both threads fetch product from warehouse
-            // THREAD #2 does not know the true level of inventory
-            return true;
-        }
-        return false;
-    }
-
-}
-
-```
 
 ### What is a lock?
 
