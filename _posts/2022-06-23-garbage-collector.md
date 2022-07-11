@@ -144,6 +144,7 @@ is taking place. **Compaction** is a process similar to hard-disk defragmentatio
 - good for small, short-running apps
 
 ---
+
 *Sources - basics and beyond:*
 
 Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006
