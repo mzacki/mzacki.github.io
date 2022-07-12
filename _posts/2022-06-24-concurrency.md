@@ -16,7 +16,7 @@ tags:
 
 ### Thread state values 
 
-Enum ```Thread.State```
+Enum ```Thread.State``` values:
 
 ```NEW```
 
@@ -43,7 +43,7 @@ A thread that is waiting for another thread for a specified period of time. ```T
 
 A thread completed execution. ```run()``` method exited or throwed an exception.
 
-### First things first: 5 rules of concurrency
+### Rules of concurrency
 
 - Every thread has its own **stack**, but all threads share the same **heap** and  **address space** in memory.
 - For threads, objects are **visible by default** - basically, every thread can access any given object by a reference or a copy of this reference. 
@@ -52,55 +52,11 @@ A thread completed execution. ```run()``` method exited or throwed an exception.
 but **the object itself can be still modified**. One can create an immutable object, but it is a different story.
 - The keyword ```synchronized``` helps make code *thread safe* (or *concurrently safe*), **but it is not enough**.
 - Thread safety is **not only** about **writing** operation on objects: it is also concerns **reading** objects and data **consistency**.
-
-### Example from e-commerce
-
-When more than one thread is trying to change the state of an object at the very same moment, there is always a problem.
-A simple example of understocking or inadequate inventory values - a common issue in poorly managed online stores - 
-called **a lost update** by computer scientists.
-Forgive the lack of a design-pattern approach.
-
-```java
-package edu.ant.patterns.basic.concurrency;
-
-public class StockLevel {
-
-    // suppose it is empty or has low stock level
-    private int currentInventory;
-
-    public StockLevel(int initInventory) {
-        this.currentInventory = initInventory;
-    }
-
-    public boolean poll(int quantity) {
-        // STEP 2:
-        // THREAD #2 concurrently enters the method...
-        if (currentInventory >= quantity) {
-            // STEP 3:
-            // THREAD #2 evaluates condition to true as THREAD #1 has not managed to update the inventory yet
-
-            // STEP 0:
-            // BOTTLENECK!
-            // if store engine or database lags (heavy workload, multiple users, fetching upstream data, sourcing downstream data)
-            // inventory update may be delayed
-
-            //  STEP 1:
-            //  THREAD #1 delays the update of current inventory
-            currentInventory = currentInventory - quantity;
-
-            Warehouse.fetchItem();
-            // STEP 4:
-            // RISK OF UNDERSTOCKING!!!
-            // both threads fetch product from warehouse
-            // THREAD #2 does not know the true level of inventory
-            return true;
-        }
-        return false;
-    }
-
-}
-
-```
+- Lock on an ```Object[]``` does not create locks on objects inside the array.
+- Lock on enclosing class does not create lock on inner class.
+- Lock on inner class does not create lock on enclosing class.
+- Primitive values are not mutable - they cannot be locked, and they do not need to be locked.
+- Interface method cannot have ```synchronized``` keyword in method declaration.
 
 ### What is a lock?
 
@@ -117,7 +73,7 @@ After the operation, the object backs to consistent state and the thread release
 **Important**: locks are coming into play only when given code is marked as ```synchronized```.
 
 **Important**: if there exists another thread accessing the same object, but through a non-synchronized method,
-there is a possibility of concurrent modification / reading inconsistent state.
+there is a possibility of concurrent modification or reading inconsistent state.
 
 ### Optimistic vs pessimistic lock
 
@@ -126,6 +82,38 @@ Both are ways to prevent **a lost update** to happen.
 **Optimistic lock**: checks whether a value to be updated has not been changed since last read.
 
 **Pessimistic lock**: explicitly forces other threads to wait until an update is done.
+
+### Why some Thread API methods are deprecated?
+
+```Thread.stop()``` immediately stops a thread without returning an object to consistent state.
+
+```Thread.suspend()``` suspends a thread but not releases the lock. When other threads want to acquire the lock, the deadlock occurs.
+
+```Thread.resume()``` creates **race condition** between deadlocked thread after ```suspend()```.
+
+```Thread.destroy()``` also creates race condition.
+
+```Thread.countStackFrames()``` is based on ```suspend()```.
+
+### Thread API methods
+
+[Full list of JDK 17 LTS Thread API methods](https://cr.openjdk.java.net/~iris/se/17/latestSpec/api/java.base/java/lang/Thread.html)
+
+*Exempli gratia*:
+
+```getId()```, ```getState()```, ```getAlive()``` - ID is the same ```long``` for the lifetime of a thread; the rest is obvious
+
+```getName()``` and ```setName()``` - good practice to name a thread - easier debugging
+
+```getPriority()``` and ```setPriority(int newPriority)``` - from 1 (lowest) to 10 (highest), priorities are managed by the scheduler
+according to various strategies, probably there is no way to control it.
+
+```start()``` creates a new thread and ```run()``` is the entry point
+
+```join()``` waits for given thread to die
+
+
+
 
 
 
