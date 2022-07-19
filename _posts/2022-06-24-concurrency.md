@@ -45,18 +45,19 @@ A thread completed execution. ```run()``` method exited or throwed an exception.
 
 ### Rules of concurrency
 
-- Every thread has its own **stack**, but all threads share the same **heap** and  **address space** in memory.
-- For threads, objects are **visible by default** - basically, every thread can access any given object by a reference or a copy of this reference. 
+- [x] Every thread has its own **stack**, but all threads share the same **heap** and  **address space** in memory.
+
+- [x] For threads, objects are **visible by default** - basically, every thread can access any given object by a reference or a copy of this reference. 
 **A reference** is a pointer to a location in memory (where an object has been located).
-- Objects are generally **mutable**.  If a reference variable is **final**, it cannot be changed by pointing to another object, 
+- [x] Objects are generally **mutable**.  If a reference variable is **final**, it cannot be changed by pointing to another object, 
 but **the object itself can be still modified**. One can create an immutable object, but it is a different story.
-- The keyword ```synchronized``` helps make code *thread safe* (or *concurrently safe*), **but it is not enough**.
-- Thread safety is **not only** about **writing** operation on objects: it is also concerns **reading** objects and data **consistency**.
-- Lock on an ```Object[]``` does not create locks on objects inside the array.
-- Lock on enclosing class does not create lock on inner class.
-- Lock on inner class does not create lock on enclosing class.
-- Primitive values are not mutable - they cannot be locked, and they do not need to be locked.
-- Interface method cannot have ```synchronized``` keyword in method declaration.
+- [x] The keyword ```synchronized``` helps make code *thread safe* (or *concurrently safe*), **but it is not enough**.
+- [x] Thread safety is **not only** about **writing** operation on objects: it is also concerns **reading** objects and data **consistency**.
+- [x] Lock on an ```Object[]``` does not create locks on objects inside the array.
+- [x] Lock on enclosing class does not create lock on inner class.
+- [x] Lock on inner class does not create lock on enclosing class.
+- [x] Primitive values are not mutable - they cannot be locked, and they do not need to be locked.
+- [x] Interface method cannot have ```synchronized``` keyword in method declaration.
 
 ### What is a lock?
 
@@ -111,10 +112,3 @@ according to various strategies, probably there is no way to control it.
 ```start()``` creates a new thread and ```run()``` is the entry point
 
 ```join()``` waits for given thread to die
-
-
-
-
-
-
-
