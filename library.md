@@ -4,13 +4,13 @@ title: Library
 permalink: /library/
 ---
 
-#### Must - read: computer science, IT & programming books I read, sometimes twice or more.
+#### Must - read: computer science, IT & programming books I read (sometimes twice or more)
 
 *In English*
 
-Java in a Nutshell. A Desktop Quick Reference 7th Edition, Ben Evans, David Flanagan, O'Reilly, 2018
+**Java in a Nutshell. A Desktop Quick Reference 7th Edition, Ben Evans, David Flanagan, O'Reilly, 2018**
 
-Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006
+**Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006**
 
 *In Polish*
 
