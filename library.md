@@ -4,22 +4,28 @@ title: Library
 permalink: /library/
 ---
 
-### Reading list
-
-#### Must - read: 
-#### Great computer science, IT & programming books I read, sometimes twice or more.
+#### Must - read: computer science, IT & programming books I read (sometimes twice or more)
 
 *In English*
 
-Java in a Nutshell. A Desktop Quick Reference 7th Edition, Ben Evans, David Flanagan, O'Reilly, 2018
+**Java in a Nutshell. A Desktop Quick Reference 7th Edition, Ben Evans, David Flanagan, O'Reilly, 2018**
 
-Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006
+**Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006**
 
 *In Polish*
 
-Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych, Mirosław Hajder, Heorhii Loutski and Wiesław Stręciwilk, 2002
+**Podstawy kryptografii, Marcin Karbowski, Helion, 2014**
 
-**Still to read (most of them - old school, but still worth reading)** 
+A pleasant introduction into cryptography basics. Topics of various difficulty, from beginner how-to-start and history to more advanced math formulas.
+If this book was updated now and edited in English (and maybe extended in some areas), it would be a bestseller.
+
+**Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych, Mirosław Hajder, Heorhii Loutski, Wiesław Stręciwilk, 2002**
+
+It is still an up-to-date knowledge source for computer programmers.
+Some chapters are very easy, some others contain a lot of mathematics, formulas and computer science theory. 
+Overall, a nice introduction into several areas of computer science.
+
+*Still to read (most of them - old school, but still worth reading)*
 
     I think I read a lot: some 5-6 books monthly, including an average 1,5 of IT book per month. But this to-read list grows even faster that I can manage.
 
