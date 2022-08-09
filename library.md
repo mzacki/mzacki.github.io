@@ -12,6 +12,10 @@ permalink: /library/
 
 **Thinking in Java 4th Edition, Bruce Eckel, Pearson, 2006**
 
+**Spock Up and Running. Writing Expressive Tests in Java and Groovy, Rob Fletcher, O'Reilly, 2017**
+
+**Java Testing With Spock, Konstantinos Kapelonis, Manning, 2016**
+
 *In Polish*
 
 **Podstawy kryptografii, Marcin Karbowski, Helion, 2014**
