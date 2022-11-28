@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Java] Diamond problem
+title: "[Java] Diamond problem"
 date:   2022-06-21 21:15
 description: Diamond inheritance problem in Java
 

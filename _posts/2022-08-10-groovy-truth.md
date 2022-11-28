@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Groovy Truth
+title: "[Groovy] The Groovy Truth"
 date:   2022-08-10 12:45
 description: Groovy truth
 
