@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Java] Garbage collector
+title: "[Java] Garbage collector"
 date:   2022-06-23 20:10
 description: Garbage collector in Java
 
