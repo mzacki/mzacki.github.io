@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java sniper code"
-date:   2023-01-28 16:12
+date:   2023-01-28 14:12
 description: Become Java sniper
 
 categories:
