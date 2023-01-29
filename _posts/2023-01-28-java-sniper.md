@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Java sniper code"
+title: "Java: Sniper Code"
 date:   2023-01-28 14:12
 description: Become Java sniper
 

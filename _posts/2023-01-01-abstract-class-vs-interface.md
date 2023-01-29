@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Abstract class vs inteface"
+title: "Java: Abstract class vs interface"
 date:   2023-01-01 09:19
 description: Compare abstract classes with interfaces 
 

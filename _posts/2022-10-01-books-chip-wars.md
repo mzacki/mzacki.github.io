@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Books] Chip war, geopolitics and strategy"
+title: "Books: Chip wars, geopolitics and strategy"
 date:   2022-10-01 18:02
 description:
 
