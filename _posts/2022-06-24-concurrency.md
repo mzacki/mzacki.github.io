@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "[Java] Concurrency"
 date:   2022-06-24 18:27
 description: Basics of concurrency in Java

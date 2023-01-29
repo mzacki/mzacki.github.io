@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java sniper code"
 date:   2023-01-28 14:12
 description: Become Java sniper
@@ -10,41 +10,46 @@ categories:
 
 tags:
 
-- Java, security
+- Java, security, Japan, kyūdō
 
 ---
-### Become Java sniper
+<br>
+<br>
+Code with joy and determination. Code calm and contemplated.
 
 
-
-1. *Code with joy and determination. Code calm and contemplated.*
-
-
-2. *A quick and dirty solution leads nowhere. Concentrate on resolving the real problem*.
+A quick and dirty solution leads nowhere. Concentrate on resolving the real problem.
 
 
-3. *Your greatest opponent is an enemy hacker. Harden your code*.
+Your greatest opponent is an enemy hacker. Harden your code.
 
 
-4. *Clean code is like a clean shot. Complete your task and change your assignment*.
+Clean code is like a clean shot. Complete your task and change your assignment.
 
 
-5. *Double checking and testing your code prolongs your life*.
+Double-checking and testing your code prolongs your life.
 
 
-6. *Practice task estimation.*
+Practice task estimation.
 
 
-7. *Master fundamentals and JVM internals.*
+Master fundamentals and JVM internals.
 
 
-8. *One code kata per day keeps impostor syndrome away.*
+One code kata per day keeps impostor syndrome away.
 
 
-9. *Never leave your laptop unlocked and your account logged in.*
+Never leave your laptop unlocked or your account logged in.
 
 
-10. *Programming is ten times debugging and one time coding.*
+Programming is ten times debugging and one time coding.
 
 
-Follow these rules and you will survive in any job.
+<div style="text-align: center;" class="image-medium">
+<img src="/assets/images/kyudo.png"  alt="kyudo symbol calligraphy" title="Kyudo">
+</div>
+<figcaption style="text-align: center; font-style: italic">Kyūdō (弓道) is the Japanese art of archery, originating from feudal era kyūjutsu (弓術).
+<br>Main rule of learining says: seisha seichū (正射正中), meaning "correct shooting is correct hitting". 
+<br>Mental and technical perfection should be the goal of a practitioner, 
+<br>leading him or her to Zen-like munen musō (無念無想) stance: "no thoughts, no illusions".
+<br>Source: Raphael Durand / Wikipedia. GFDL 1.2</figcaption>

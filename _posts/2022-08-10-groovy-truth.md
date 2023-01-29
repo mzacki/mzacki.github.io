@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[Groovy] The Groovy Truth"
 date:   2022-08-10 12:45
 description: Groovy truth

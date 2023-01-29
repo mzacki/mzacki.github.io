@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:
 date:   2022-07-12 19:04
 description: concurrency examples
