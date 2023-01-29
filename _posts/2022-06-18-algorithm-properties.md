@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "What properties should have an algorithm?"
 date:   2022-06-18 12:27:11 +0200
 categories: algorithms computer_science
