@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Java] Memory leaks"
+title: "Java: Memory leaks"
 date:   2022-06-22 13:53
 description: Memory leaks in Java
 
