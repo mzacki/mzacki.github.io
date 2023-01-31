@@ -25,6 +25,8 @@ But still:
 > 
 > Haruki Murakami, *Blind Willow, Sleeping Woman (めくらやなぎと眠る女, Mekurayanagi to nemuru onna)*
 
+Ubuntu is good for a start.
+
 ### Basic privacy for Ubuntu
 
 First of all, before it is installed, let's verify if downloaded version has not been intercepted or tampered with. 
