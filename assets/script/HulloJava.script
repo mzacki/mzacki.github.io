@@ -1,0 +1,6 @@
+#!/usr/bin/java --source 17
+public class HulloJava {
+    public static void main(String[] args) {
+        System.out.println("Hullo, it's Java script!");
+    }
+}
