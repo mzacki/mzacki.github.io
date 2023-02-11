@@ -2,7 +2,7 @@
 layout: single
 title: "Books: Chip wars, geopolitics and strategy"
 date:   2022-10-01 18:02
-description:
+description: Programming is not only about technology, but also about strategy.
 
 categories:
 

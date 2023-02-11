@@ -2,7 +2,7 @@
 layout: single
 title: "Java: Abstract class vs interface"
 date:   2023-01-01 09:19
-description: Compare abstract classes with interfaces 
+description: Comparing abstract classes and interfaces. Similarities and differences.
 
 categories:
 - Java, OOP

@@ -2,7 +2,7 @@
 layout: single
 title: "Java: Sniper Code"
 date:   2023-01-28 14:12
-description: Become Java sniper
+description: Follow ten simple rules and become Java sniper.
 
 categories:
 
