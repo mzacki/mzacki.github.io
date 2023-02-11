@@ -2,7 +2,7 @@
 layout: single
 title: "How to Jekyll and GitHub Pages - knowledge base"
 date:   2022-06-16 21:07
-description: How to Jekyll and GitHub Pages
+description: How to create your website for free with GitHub?
 
 categories:
 - web

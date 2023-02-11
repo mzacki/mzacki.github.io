@@ -2,6 +2,7 @@
 layout: single
 title:  "What properties should have an algorithm?"
 date:   2022-06-18 12:27:11 +0200
+description: Every algorithm should be like this.
 categories: algorithms computer_science
 tags:
 

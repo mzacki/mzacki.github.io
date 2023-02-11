@@ -2,7 +2,7 @@
 layout: single
 title: "Java: Diamond problem"
 date:   2022-06-21 21:15
-description: Diamond inheritance problem in Java
+description: Diamond inheritance problem in Java.
 
 categories:
 

@@ -2,7 +2,7 @@
 layout: single
 title:  "Ubuntu Privacy 101"
 date:   2023-01-30 19:57
-description: Ubuntu privacy 101
+description: Linux is more private OS. Learn basic setup that increases privacy even more.
 
 categories:
 
