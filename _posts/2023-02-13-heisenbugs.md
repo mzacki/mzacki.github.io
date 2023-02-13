@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Heisenbugs in Java"
-date:   2023-02-13 05:58
+date:   2023-02-13 09:58
 description: Debugging Heisenbugs in Java and other creatures.
 
 categories:
