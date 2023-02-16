@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Mateusz Zacki"
   avatar           : "/assets/images/bee.png"
-  bio              : "From Ph.D. in Political Science to IT. Once game theory, cybernetics and strategy. Now beekeeping, ants, swarm intelligence.
-  <br>I have a disastrous weakness for functional programming, good books and paranoid security."
+  bio              : "From Ph.D. to IT. <br>Once interested in game theory and cybernetics. Now beekeeping, ants, swarm intelligence.
+  <br>I have a disastrous weakness for functional programming, good books and extensive privacy."
   location         : "Central Europe"
   email            : "zacki[dot]mateusz[at]gmail[dot]com"
   links:

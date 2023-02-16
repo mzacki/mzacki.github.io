@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "About the Bee"
-    url: /about
   - title: "Library"
     url: /library
+  - title: "Security"
+    url: /security
+  - title: "About the Bee"
+    url: /about
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
