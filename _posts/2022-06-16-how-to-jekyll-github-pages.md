@@ -71,3 +71,19 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
+### Update: Minimal Mistakes theme tricks
+
+Great source of Minimal Mistakes tricks: [Katerina Bosko page](https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-II/#how-to-change-size-of-post-title-on-home-page)
+
+How to change font size of post titles (whole headers) on the main page:
+- [x] Navigate to _archive.scss
+- [x] Add font-size to .archive__item, e.g.:
+
+```scss
+.archive__item {
+  position: relative;
+  font-size: 0.8em;
+```
+
