@@ -58,6 +58,19 @@ If this book was updated now and edited in English (and maybe extended in some a
 
 - [x] [Java Security Architecture Demystified by Martin Toshev](https://www.youtube.com/watch?v=2GGQXPDYT6w)
 - [x] [Cryptography 101 for Java developers by Michel Schudel](https://www.youtube.com/watch?v=itmNhVckTPc)
+- [x] [What’s New in Java Security? by Oracle Developers](https://www.youtube.com/watch?v=dNoxScux2j0)
+- [x] [Keeping Your Java Applications Secure - Cryptographic Improvements and Best Practices](https://www.youtube.com/watch?v=51OEq8_HyMY)
+- [x] [javaBin Online : 10 Java Security Practices They Didn't Teach You In School](https://www.youtube.com/watch?v=rb59UOHrmSY)
+- [x] [Martin Toshev - Java Security Animated](https://www.youtube.com/watch?v=6eWKS5FMESI)
+- [x] [10 Java Security Practices • Brian Vermeer • Devoxx Poland 2021](https://www.youtube.com/watch?v=6kOjLP8tbL4)
+- [x] [Tech3camp#72 (Java): Adam Zielke - Security w Javie nie istnieje - dowody](https://www.youtube.com/watch?v=BrjkjYhg_60)
+- [x] [Java application security the hard way - a workshop for the serious developer (Steve Poole)](https://www.youtube.com/watch?v=p_2GQQtUu-g)
+- [x] [Secure Coding Guidelines for Java](https://www.youtube.com/watch?v=4iEiKa1JmBU)
+- [x] [Java Security & the Java Ecosystem • Nicolas Frankel • GOTO 2021](https://www.youtube.com/watch?v=uVob-4aXbxY)
+- [x] [Securing the JVM • Nicolas Frankel • GOTO 2019](https://www.youtube.com/watch?v=sIuVbVbjZcw)
+- [x] [The Anatomy of a Secure Web Application in Java Using Spring Security and Apache Fortress](https://www.youtube.com/watch?v=g3ENNk_vrjI)
+- [x] [Diving Java ecosystem security with DevOps and OpenSource](https://www.youtube.com/watch?v=ZbR8cZCk9Cw)
+- [x] [Fuzzing Java with Jazzer - Java User Group Switzerland](https://www.youtube.com/watch?v=YRporP5p1pc)
 
 #### Courses
 
