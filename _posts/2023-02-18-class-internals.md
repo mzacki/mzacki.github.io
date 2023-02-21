@@ -1,16 +1,16 @@
 ---
 layout: single
-title: "Class internals"
+title: "Class internals: introduction"
 date:   2023-02-18 10:20
-description: Java .class files internals basics.
+description: Introduction to Java .class file internals basics.
 
 categories:
 
-- Java, JVM
+- Java, JVM, security
 
 tags:
 
-- Java, JVM, bytecode
+- Java, JVM, bytecode, hex, security
 
 ---
 
@@ -74,7 +74,6 @@ First of all, let's compile and then disassemble sample Java class:
 
 ```java
 public class HulloDarling {
-
     public static void main(String[] args) {
         System.out.println("Hullo, darling!");
     }
@@ -424,7 +423,7 @@ contains reference to the constant pool information:
  #21 = Class              #22            // HulloDarling
 ```
 
-According to [the guide](https://docs.oracle.com/javase/specs/jvms/se17/html/jvms-4.html#jvms-4.1-200-E.1), *the value of the this_class item must be a valid index into the constant_pool table. 
+According to [the guide](https://docs.oracle.com/javase/specs/jvms/se17/html/jvms-4.html#jvms-4.1-200-E.1), *the value of the ```this_class``` item must be a valid index into the constant_pool table. 
 The constant_pool entry at that index must be a CONSTANT_Class_info structure representing the class or interface defined by this class file*.
 
 #### Super class
