@@ -77,6 +77,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [+7000 courses related to security lauched by world univerities: including > 2500 for free.](https://www.classcentral.com/search?q=security)
 - [x] [Privacy: +1000 courses available, including > 500 free.](https://www.classcentral.com/search?q=privacy)
 - [x] [hackers-arise.com](https://www.hackers-arise.com/) (search for free stuff)
+- [x] [Coursera: cryptography courses](https://www.coursera.org/search?query=cryptography&), including legendary **Dan Boneh's [Cryptography I](https://www.coursera.org/learn/crypto) & [Cryptography II](https://www.coursera.org/learn/crypto2)**
+- [x] [Coursera: security](https://www.coursera.org/search?query=security&) and [privacy](https://www.coursera.org/search?query=privacy) courses
 
 #### Where to train?
 
