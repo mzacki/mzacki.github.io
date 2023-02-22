@@ -53,9 +53,12 @@ Most of them - old school, but still worth reading.
 
 ### Resources
 
-[Training repo for Scala](https://github.com/mzacki/scala-precision): see resources on functional programming, Kafka and more in ReadMe.md
+- [x] [Training repo for Scala](https://github.com/mzacki/scala-precision): see resources on functional programming, Kafka and more in ReadMe.md
+- [x] [Design patterns repo](https://github.com/iluwatar/java-design-patterns): contribute or learn
+- [x] [Algorithms & data structures project](https://github.com/williamfiset/Algorithms)
+
 
 ### Tools
 
-Technical English: [Microsoft Style Guide + Glossary](https://learn.microsoft.com/en-us/style-guide/welcome/)
-Recaf (bytecode & hex editor): [website](https://www.coley.software/Recaf-documentation/setup-get.html) and [repo](https://github.com/Col-E/Recaf)
+- [x] Technical English: [Microsoft Style Guide + Glossary](https://learn.microsoft.com/en-us/style-guide/welcome/)
+- [x] Recaf (bytecode & hex editor): [website](https://www.coley.software/Recaf-documentation/setup-get.html) and [repo](https://github.com/Col-E/Recaf)

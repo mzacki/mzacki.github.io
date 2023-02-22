@@ -1,15 +1,14 @@
-
 ---
 layout: single
-title: "Pitfalls of polymorphism"
-date:   2023-02-11 10:20
-description:
+title: "Polymorphism and RTTI pitfalls"
+date:   2022-10-14 10:20
+description: Less-known issues related Java polymorphism & RTTI
 
 categories:
-- 
+- Java
 
 tags:
-- 
+- Java
 
 ---
 
@@ -194,3 +193,22 @@ class SubClass extends Parent {
 ```
 Static methods also does not behave polymorphically. The reason is clear: static methods belong to a class itself, and not to its instance (individual object).
 Constructors are not polymorphic. They’re implicitly static methods.
+
+### RTTI
+
+Runtime type information (RTTI) is mechanism that is responsible for indentifying object types in runtime. Polymorphism - compile-time binding - is possible thanks to the RTTI.
+RTTI can be applied in three ways: 
+- casting
+- explicit instance check with ```instanceOf``` operator
+- reflection API
+
+Polymorphism is based on casting.
+
+How type information is represented at runtime?
+
+**Class object** contains information about the class, and it serves to create instances of the class. RTTI is possible using the Class object:
+
+>There is only one Class object for each class. Each time a new class is created and compiled,
+> a single Class object is also created (and stored in .class file). To create an instance of that class, JVM is using class loader.
+
+To be continued: reflection-related security issues.
