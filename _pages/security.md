@@ -53,6 +53,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Beginning Crypthography with Java Code Examples](https://media.wiley.com/product_ancillary/30/07645963/DOWNLOAD/beg_crypto_examples.zip)
 - [x] [Java Cryptography](https://resources.oreilly.com/examples/9781565924024/)
 - [x] [Java Security](https://resources.oreilly.com/examples/9780596001575/)
+- [x] Contribute to [Signal for Android](https://github.com/signalapp/Signal-Android)
 
 #### Videos
 
