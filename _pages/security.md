@@ -80,6 +80,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [hackers-arise.com](https://www.hackers-arise.com/) (search for free stuff)
 - [x] [Coursera: cryptography courses](https://www.coursera.org/search?query=cryptography&), including legendary **Dan Boneh's [Cryptography I](https://www.coursera.org/learn/crypto) & [Cryptography II](https://www.coursera.org/learn/crypto2)**
 - [x] [Coursera: security](https://www.coursera.org/search?query=security&) and [privacy](https://www.coursera.org/search?query=privacy) courses
+- [x] [freeCodeCamp: Introduction to Linux](https://www.freecodecamp.org/news/introduction-to-linux)
+- [x] [freeCodeCamp: How to create your own command in Linux](https://www.freecodecamp.org/news/how-to-create-your-own-command-in-linux/)
 
 #### Where to train?
 
