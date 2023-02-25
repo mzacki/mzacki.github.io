@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "Library"
-    url: /library
+  - title: "JVM"
+    url: /jvm
   - title: "Security"
     url: /security
+  - title: "Swarm Intelligence"
+    url: /swarm
   - title: "About the Bee"
     url: /about
   # - title: "Sample Collections"
