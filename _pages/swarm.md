@@ -27,3 +27,5 @@ permalink: /swarm/
 - [x] [What is Swarm Intelligence?](https://www.baeldung.com/cs/swarm-intelligence)
 - [x] [An Insight into Swarm Intelligence](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.381.7727&rep=rep1&type=pdf), International Journal of Recent Trends in Engineering, Vol 2, No. 8, November 2009
 - [x] [Ant Colony Optimization with a Java Example](https://www.baeldung.com/java-ant-colony-optimization)
+- [x] [Swarm Intelligence to improve network & device security](https://www.darkreading.com/vulnerabilities-threats/swarm-intelligence-may-be-just-the-ticket-for-improved-network-device-security)
+- [x] [Intrusion Detection Using Swarm Intelligence](https://ieeexplore.ieee.org/abstract/document/8881840)
