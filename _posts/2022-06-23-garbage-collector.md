@@ -6,13 +6,11 @@ description: Garbage collector in Java.
 
 categories:
 
-- Java
-- JVM
+- Java, JVM
 
 tags:
 
-- garbage collector
-- JVM
+- garbage collector, JVM
 
 ---
 
@@ -142,6 +140,54 @@ is taking place. **Compaction** is a process similar to hard-disk defragmentatio
 - single-threaded
 - generational
 - good for small, short-running apps
+
+#### Update 5.03.2023: Reference objects
+
+The **java.lang.ref** offers three special reference classes, subclasses of abstract class **Reference**:
+
+- [x] SoftReference
+- [x] WeakReference
+- [x] PhantomReference
+
+These are intermediates, proxies, allowing to still hold a reference to an object while the object is no longer considered as truly reachable.
+Thus, such object may be subjected to garbage collection. SoftReference, WeakReference and PhantomReference have different level of reachability.
+
+#### What does it mean that an object is reachable? 
+
+It means there exists (in a program) a reference on the stack that goes right to the
+object on a heap. Another case are chained references: living, existing and used reference pointing to an object that has a reference to the object in
+question, and so on. There can be many "chained", intermediate links. 
+
+> When object is reachable, the garbage collector cannot release it - it’s still in use. 
+
+Unreachable objects are safe to be garbage-collected.
+
+#### Using Reference objects
+
+Holding references through Reference objects let us use referenced objects, but when memory exhaustion is imminent, 
+the garbage collector is allowed to remove such objects.
+
+There is one condition: there must be no ordinary (meaning: unproxied) references to the object in question.
+So no other references except for the ones that are wrapped inside Reference objects. 
+
+> Soft references are for implementing memory-sensitive caches. 
+
+> Weak references are for implementing "canonicalizing mappings"— where instances of objects can be simultaneously used in
+multiple places in a program, to save storage—that do not prevent their keys (or values) from being reclaimed. 
+
+> Phantom references are for scheduling pre-mortem cleanup actions in a  more flexible way than is possible with the Java finalization mechanism.
+
+SoftReferences and WeakReferences can be placed on a ReferenceQueue (the device used for premortem cleanup actions).
+PhantomReference can only be built on a ReferenceQueue.
+
+#### WeakHashMap
+
+WeakHashMap is a special Map interface implementation designed to store weakly-reachable objects.
+It is creating only one instance of a particular value. When the program needs that value, it looks up the existing object in the mapping and uses that, rather
+than creating one from scratch. The mapping may make the values as part of its initialization, but it’s more likely that the values are made on demand.
+
+WeakHashMap allows  the garbage collector to automatically clean up the keys and values. Keys and values of such map do not need to be 
+pre-prepared in any way. They are automatically wrapped in WeakReferences by the map.
 
 ---
 
