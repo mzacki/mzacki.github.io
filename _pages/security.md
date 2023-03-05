@@ -5,6 +5,7 @@ permalink: /security/
 ---
 
 #### Java security
+---
 
 - [x] The CERT Oracle Secure Coding Standard for Java, Fred Long, Dhruv Mohindra, Robert C. Seacord, Dean F. Sutherland, David Svoboda, 2011
 - [x] Java Coding Guidelines: 75 Recommendations for Reliable and Secure Programs, Fred Long, Dhruv Mohindra, Robert C. Seacord, Dean F. Sutherland, David Svoboda, 2013
@@ -20,6 +21,7 @@ permalink: /security/
 - [x] Hands-On Spring Security 5 for Reactive Applications, Tomcy John, Packt Publishing, 2018
 
 #### Security
+---
 
 - [x] Security Engineering: A Guide to Building Dependable Distributed Systems, Ross Anderson, Wiley 2020
 
@@ -35,6 +37,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Schneier on Security](https://www.schneier.com/)
 
 #### Privacy
+---
 
 - [x] Extreme Privacy: What It Takes To Disappear - 4th Edition (2022), Michael Bazzell
 - [x] [Michael Bazzell's website](https://inteltechniques.com/index.html)
@@ -42,25 +45,37 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] Personal Digital Security: Protecting Yourself from Online Crime 2016 Revision, Michael Bazzell
 
 #### OSINT
+---
 
 - [x] OSINT Techniques: Resources for Uncovering Online Information - 10th Edition (2023), Michael Bazzell
 - [x] [Open Source Intelligence Tools and Resources Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
 
 #### Linux
+---
 
 - [x] [freeCodeCamp: Introduction to Linux](https://www.freecodecamp.org/news/introduction-to-linux)
 - [x] [freeCodeCamp: How to create your own command in Linux](https://www.freecodecamp.org/news/how-to-create-your-own-command-in-linux/)
+- [x] BorgBackup [repo](https://github.com/borgbackup) and [website](https://www.borgbackup.org/) with cloud [BorgBase](https://www.borgbase.com/)
+- [x] [Age - command-line encryption tool and password manager](https://github.com/FiloSottile/age)
+- [x] [btop++](https://github.com/aristocratos/btop) - command-line OS resources monitor (C++), [bpytop](https://github.com/aristocratos/bpytop) (Python)
+
+#### Python
+---
+
+- [x] [30 days of Python](https://github.com/Asabeneh/30-Days-Of-Python)
 
 #### Repositories
+---
 
-- [x] Contribute to Google's [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner/blob/master/docs/contributing.md)
-- [x] Contribute to [Zing - the Zero packet Ping network utility](https://github.com/wgilreath/zing) or [Zing2 forked project](https://github.com/mzacki/zing2)
+- [x] Contribute to Google's [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner/blob/master/docs/contributing.md) (Java)
+- [x] Contribute to [Zing - the Zero packet Ping network utility](https://github.com/wgilreath/zing) or [Zing2 forked project](https://github.com/mzacki/zing2) (Java)
 - [x] [Beginning Crypthography with Java Code Examples](https://media.wiley.com/product_ancillary/30/07645963/DOWNLOAD/beg_crypto_examples.zip)
 - [x] [Java Cryptography](https://resources.oreilly.com/examples/9781565924024/)
 - [x] [Java Security](https://resources.oreilly.com/examples/9780596001575/)
-- [x] Contribute to [Signal for Android](https://github.com/signalapp/Signal-Android)
+- [x] Contribute to [Signal for Android](https://github.com/signalapp/Signal-Android) (Java + Kotlin)
 
 #### Videos
+---
 
 - [x] [Java Security Architecture Demystified by Martin Toshev](https://www.youtube.com/watch?v=2GGQXPDYT6w)
 - [x] [Cryptography 101 for Java developers by Michel Schudel](https://www.youtube.com/watch?v=itmNhVckTPc)
@@ -77,8 +92,25 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [The Anatomy of a Secure Web Application in Java Using Spring Security and Apache Fortress](https://www.youtube.com/watch?v=g3ENNk_vrjI)
 - [x] [Diving Java ecosystem security with DevOps and OpenSource](https://www.youtube.com/watch?v=ZbR8cZCk9Cw)
 - [x] [Fuzzing Java with Jazzer - Java User Group Switzerland](https://www.youtube.com/watch?v=YRporP5p1pc)
+- [x] [Exploring Java Heap Dumps Java Language label Ryan Cuprak](www.youtube.com/watch?v=9Cnm2lFBe0I)
 
 #### Courses
+---
+
+Security for developers - including Java
+
+- [x] **[Java security by Snyk](https://learn.snyk.io/lessons/java/)** - free interactive lessons for developers, covering over sixty vulnerabilities and remediatiation in various languages, including Java and Python 
+- [x] [Secure Code Warrior](https://www.securecodewarrior.com/) - another interactive security platform for developers, offers free trial + some free stuff
+- [x] [Codebashing](https://www.codebashing.com/) - developer-oriented and interactive, free unlimited trial, 41 lessons on discreet CVE's to code level OWASP Top 10 vulnerabilites
+- [x] [Hacksplaining](https://www.hacksplaining.com/lessons) - more theory but still interactive, focuses on attacker side, shows code snippets at the end of every lesson
+- [x] **[Contrast's Secure Code Learning Hub](https://www.contrastsecurity.com/developer/learn#Contrast-Secure-Code-Lessons)** - lessons consist on text, videos, code snippets and resources, shows vulnerabilities and mitigations, and there is Java, too
+- [x] [Avatao secure coding training](https://avatao.com/security-training/) - only three free excercises, learning path by language (Java, Kotlin) or by topic
+- [x] [Veracode Security Labs Community Edition](https://info.veracode.com/security-labs-community-edition-signup.html) - forever-free option for developers who want to gain knowledge about the latest security topics
+- [x] [OWASP Secure Coding Dojo](https://owasp.org/www-project-secure-coding-dojo/) and its GitHub repo (https://github.com/owasp/SecureCodingDojo) - this is a self-hosted learning platform in Java with lessons hosted and an insecure app to fix, Docker, Java
+- [x] [Kontra - Application Security Training by ThriveDX](https://application.security/free/owasp-top-10) - many of the OWASP Top Ten Exercises free and a free trial, interactive, but nice old-school design (I'd say Windows 98 / Win XP style)
+- [x] [Appsec Engineer](checkout.appsecengineer.com/free) - access to 7 courses for 15 days
+
+General security
 
 - [x] [+7000 courses related to security lauched by world univerities: including > 2500 for free.](https://www.classcentral.com/search?q=security)
 - [x] [Privacy: +1000 courses available, including > 500 free.](https://www.classcentral.com/search?q=privacy)
@@ -88,7 +120,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Web Security Academy of PortSwigger](https://portswigger.net/web-security)
 
 #### Where to train?
+---
 
 - [x] [Try Hack Me](https://tryhackme.com/) (training & learning platform)
 - [x] [Hack The Box](https://www.hackthebox.com/) (training platform)
-- [x] [Hack The Box Academy](https://academy.hackthebox.com/) (learning platform)
+- [x] [Hack The Box Academy](https://academy.hackthebox.com/) (learning platform launched by Hack The Box)

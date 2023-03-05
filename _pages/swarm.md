@@ -29,3 +29,12 @@ permalink: /swarm/
 - [x] [Ant Colony Optimization with a Java Example](https://www.baeldung.com/java-ant-colony-optimization)
 - [x] [Swarm Intelligence to improve network & device security](https://www.darkreading.com/vulnerabilities-threats/swarm-intelligence-may-be-just-the-ticket-for-improved-network-device-security)
 - [x] [Intrusion Detection Using Swarm Intelligence](https://ieeexplore.ieee.org/abstract/document/8881840)
+
+#### Videos
+
+- [x] [Why Java and the JVM Will Dominate the Future of Machine Learning, AI, and Big Data](https://www.youtube.com/watch?v=Ytja2JuVMlw)
+- [x] [Derek Ferguson — Machine learning in Java from nothing to production in one hour](https://www.youtube.com/watch?v=ljuf1mYqAIE)
+- [x] [Deep Learning: The Future of Artificial Intelligence, with Matthew Renze](https://www.youtube.com/watch?v=AktmFvRVPsI)
+- [x] [2019 - Patryk Pilarski - Apache Spark vs Machine Learning](https://www.youtube.com/watch?v=Ai8MdBKeHgc)
+- [x] [Massive Parallelism with GPUs in Java by Adam Roberts](https://www.youtube.com/watch?v=CIjdipU66qw)
+- [x] [Neural Networks: From Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
