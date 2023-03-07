@@ -7,16 +7,14 @@ permalink: /jvm/
 #### Your Must-Read: Java
 ----
 
-- [x] **The Well-Grounded Java Developer**, Benjamin J. Evans, Martijn Verburg, Manning, 2010
-
-- [x] **Java in a Nutshell. A Desktop Quick Reference 7th Edition**, Ben Evans, David Flanagan, O'Reilly, 2018
-
-- [x] **Thinking in Java 4th Edition**, Bruce Eckel, Pearson, 2006
-
+- [x] **Core Java, Volume I: Fundamentals**, 12th Edition, Cay S. Horstmann, Oracle, 2021 *(the newest edition of The Java Bible, Java 8 and higher)*
+- [x] **Core Java, Volume II: Advanced Features**, 12th Edition, Cay S. Horstmann, Oracle, 2022
+- [x] **Thinking in Java 4th Edition**, Bruce Eckel, Pearson, 2006 *(old-school but still important for understanding the deeper fondamentals of Java 5/6)*
+- [x] **Effective Java**, 3rd Edition, Joshua Bloch, 2018
+- [x] **The Well-Grounded Java Developer**, Benjamin J. Evans, Martijn Verburg, Manning, 2010 *(overview of Java 7 and JVM languages)*
 - [x] **Spock Up and Running. Writing Expressive Tests in Java and Groovy**, Rob Fletcher, O'Reilly, 2017
-
 - [x] **Java Testing With Spock**, Konstantinos Kapelonis, Manning, 2016
-
+- [x] **Java in a Nutshell. A Desktop Quick Reference 7th Edition**, Ben Evans, David Flanagan, O'Reilly, 2018
 - [x] **Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych**, Mirosław Hajder, Heorhii Loutski, Wiesław Stręciwilk, 2002 (*It is still an up-to-date knowledge source for computer programmers.
   Some chapters are very easy, some others contain a lot of mathematics, formulas and computer science theory.
   Overall, a nice introduction into several areas of computer science.*)
@@ -30,28 +28,16 @@ But this to-read list grows even faster that I can manage.
 Most of them - old school, but still worth reading.
 
 - [x] **Java Generics and Collection**, Maurice Naftalin, Philip Wadler, O'Reilly, 2006
-
 - [x] **Java Concurrency in Practice**, Brian Goetz (*It's often said that you think you're good at Java until you open this book.*)
-
 - [x] **Java Performance**, Charlie Hunt, Binu John, Financial Times Prentice Hall, 2011 (*On Java internals, good opinions.*)
-
 - [x] **Java Performance Companion**, Charlie Hunt, Addison-Wesley Professional, 2016
-
 - [x] **Java Performance**, The Definitive Guide, Scott Oaks, O'Reilly, 2014
-
-- [x] **Java Puzzlers: Traps, Pitfalls, and Corner Cases**, Joshua Bloch, Neal Gafter, Pearson, 2005
-
-- [x] **Java By Comparison: Become a Java Craftsman in 70 Examples**, Simon Harrer, Jörg Lenhard, Linus Dietz, Pragmatic
-  Bookshelf, 2018
-
+- [x] **[Java Puzzlers: Traps, Pitfalls, and Corner Cases](http://www.javapuzzlers.com/)**, Joshua Bloch, Neal Gafter, Pearson, 2005
+- [x] **Java By Comparison: Become a Java Craftsman in 70 Examples**, Simon Harrer, Jörg Lenhard, Linus Dietz, Pragmatic Bookshelf, 2018
 - [x] **Java Performance and Scalability: A Quantitative Approach**, Henry H. Liu, CreateSpace, 2013
-
 - [x] **System Performance: Enterprise and the Cloud**, 2nd Edition, Brendan Gregg, Pearson, 2020
-
 - [x] **High-Performance Java Persistence**, Vlad Mihalcea, 2016
-
-- [x] **The Optimizing Java: Practical Techniques for Improving JVM Application Performance**, Ben Evans, James Gough,
-  Chris Newland, O'Reilly, 2018
+- [x] **The Optimizing Java: Practical Techniques for Improving JVM Application Performance**, Ben Evans, James Gough, Chris Newland, O'Reilly, 2018
 
 #### Resources
 ---
@@ -61,6 +47,7 @@ Most of them - old school, but still worth reading.
 - [x] [Algorithms & data structures project](https://github.com/williamfiset/Algorithms)
 - [x] Contribute to [ZeptoN](https://github.com/ZeptoN-Programming-Language) - simple JVM language by [William Gilreath](https://github.com/wgilreath)
 - [x] Yong Mook Kim's website - [mkyong.com (Java and Spring)](https://mkyong.com/)
+- [x] [Cay Horstmann's home page + blog + more](https://horstmann.com/)
 
 #### Videos
 ----
@@ -108,9 +95,9 @@ Most of them - old school, but still worth reading.
 - [x] [HackerRank](https://www.hackerrank.com/)
 - [x] [Codewars](https://www.codewars.com/)
 
-## Functional languages + Kafka
+## Other JVM languages, functional languages, Kafka
 
-### Scala
+#### Scala
 ---
 
 - [x] Scala (including Haskell and math): https://niqdev.github.io/scala-fp/docs/book.html
@@ -124,7 +111,7 @@ Most of them - old school, but still worth reading.
 - [x] [How to set up a new Scala project - checklist](https://softwaremill.com/new-scala-project-checklist/)
 - [x] [Demystifying Scala • Kelley Robinson • GOTO 2017](www.youtube.com/watch?v=IayQ7lxPUP4)
 
-### Kafka
+#### Kafka
 ---
 
 - [x] [Jacek Laskowski - Apache Kafka i Kafka Streams praktycznie](https://www.youtube.com/watch?v=qYEvgtQLxqk)
@@ -139,7 +126,7 @@ Most of them - old school, but still worth reading.
 - [x] [Beyond the DSL—Unlocking the power of Kafka Streams with the Processor API by Antony Stubbs](www.youtube.com/watch?v=_KAFdwJ0zBA)
 - 
 
-### Clojure
+#### Clojure
 ---
 
 - [x] Clojure and security researcher [Randomseed blog & Clojure manual](https://randomseed.pl/pub/poczytaj-mi-clojure/)
@@ -147,7 +134,7 @@ Most of them - old school, but still worth reading.
 - [x] [Another blog on Clojure](http://mishadoff.com/archive/)
 - [x] Clojure dialect Babashka (Clojure scripting): [book](https://book.babashka.org/), [repo](https://github.com/babashka)
 
-### Functional Java
+#### Functional Java
 ---
 
 - [x] [4Developers 2018: Monady dla zwykłego Javowca (Jarek Ratajski)](https://youtu.be/8idt_VpS6XQ)
@@ -164,12 +151,12 @@ Most of them - old school, but still worth reading.
 - [x] [Functional Programming Patterns with Java8 with Victor Rentea](www.youtube.com/watch?v=F02LKnWJWF4)
 - [x] [Make Your CPU Cores Sweat with Parallel Streams](www.youtube.com/watch?v=PdEViU_S0ME)
 
-### Groovy
+#### Groovy
 ---
 
 - [x] [mrhaki: Groovy and Java](https://www.mrhaki.com/)
 
-### Kotlin
+#### Kotlin
 ---
 
 - [x] [Introduction to Kotlin](www.youtube.com/watch?v=X1RVYt2QKQE)

@@ -23,6 +23,7 @@ permalink: /security/
 #### Security
 ---
 
+- [x] **[Cybersecurity Canon](https://icdt.osu.edu/cybercanon/bookreviews)** by Ohio State Univeristy (former project of Palo Alto Networks)
 - [x] Security Engineering: A Guide to Building Dependable Distributed Systems, Ross Anderson, Wiley 2020
 
 > Antology of security. First edition available for free from the [author's website](https://www.cl.cam.ac.uk/~rja14/book.html).
@@ -125,3 +126,18 @@ General security
 - [x] [Try Hack Me](https://tryhackme.com/) (training & learning platform)
 - [x] [Hack The Box](https://www.hackthebox.com/) (training platform)
 - [x] [Hack The Box Academy](https://academy.hackthebox.com/) (learning platform launched by Hack The Box)
+
+#### Bug Bounty
+---
+
+- [x] [hackerone](https://www.hackerone.com)
+- [x] [bug crowd](https://www.bugcrowd.com)
+- [x] [list of bug bounty platforms](https://github.com/disclose/bug-bounty-platforms)
+
+Even if you do not want to actively participate in the bounty, it is worth looking for **bug bounty writeups**,
+which are publicly available descriptions of bugs that have been reported as part of bug bounty programmes. 
+This is often a read full of *why didn't I come across this*...
+
+- [x] [hackerone writeups](https://infosecwriteups.com/tagged/hackerone)
+- [x] [pentester.land](https://pentester.land/writeups/)
+
