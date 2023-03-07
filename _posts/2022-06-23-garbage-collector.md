@@ -183,10 +183,14 @@ PhantomReference can only be built on a ReferenceQueue.
 #### WeakHashMap
 
 WeakHashMap is a special Map interface implementation designed to store weakly-reachable objects.
-It is creating only one instance of a particular value. When the program needs that value, it looks up the existing object in the mapping and uses that, rather
-than creating one from scratch. The mapping may make the values as part of its initialization, but it’s more likely that the values are made on demand.
 
-WeakHashMap allows  the garbage collector to automatically clean up the keys and values. Keys and values of such map do not need to be 
+It helps to resolve the following problem: some key is no longer used (no live references pointing to it). So the value appears to be unused as well.
+But it is stored in a Map, and within a Map, all buckets are considered to be alive. So it is impossible for a garbage collector to clean this object.
+Either it will be done explicitly (programatically) or by using WeakHashMap. 
+
+If an object is stored in WeakHashMap, if its key has no external refrences, it can be cleared by the GC, as WHM uses weak references.
+
+WeakHashMap allows the garbage collector to automatically clean up the keys and values. Keys and values of such map do not need to be 
 pre-prepared in any way. They are automatically wrapped in WeakReferences by the map.
 
 ---
