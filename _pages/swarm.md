@@ -38,3 +38,8 @@ permalink: /swarm/
 - [x] [2019 - Patryk Pilarski - Apache Spark vs Machine Learning](https://www.youtube.com/watch?v=Ai8MdBKeHgc)
 - [x] [Massive Parallelism with GPUs in Java by Adam Roberts](https://www.youtube.com/watch?v=CIjdipU66qw)
 - [x] [Neural Networks: From Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+
+#### Courses
+
+- [x] [Harvard CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0)
+- [x] [Harvard Data Science: Machine Learning](https://pll.harvard.edu/course/data-science-machine-learning?delta=5)

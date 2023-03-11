@@ -56,6 +56,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 
 - [x] [freeCodeCamp: Introduction to Linux](https://www.freecodecamp.org/news/introduction-to-linux)
 - [x] [freeCodeCamp: How to create your own command in Linux](https://www.freecodecamp.org/news/how-to-create-your-own-command-in-linux/)
+- [x] [Linux terminal for beginners - short intro](https://www.freecodecamp.org/news/command-line-for-beginners/#ourfirstscript)
+- [x] [Basic Linux networking commands](https://www.freecodecamp.org/news/linux-networking-commands-for-beginners/)
 - [x] BorgBackup [repo](https://github.com/borgbackup) and [website](https://www.borgbackup.org/) with cloud [BorgBase](https://www.borgbase.com/)
 - [x] [Age - command-line encryption tool and password manager](https://github.com/FiloSottile/age)
 - [x] [btop++](https://github.com/aristocratos/btop) - command-line OS resources monitor (C++), [bpytop](https://github.com/aristocratos/bpytop) (Python)
@@ -126,6 +128,18 @@ General security
 - [x] [Try Hack Me](https://tryhackme.com/) (training & learning platform)
 - [x] [Hack The Box](https://www.hackthebox.com/) (training platform)
 - [x] [Hack The Box Academy](https://academy.hackthebox.com/) (learning platform launched by Hack The Box)
+- [x] [Vulnmachines](https://www.vulnmachines.com/) (free labs consist of 100+ real scenarios, like Spring4Shell, Log4jShell)
+- [x] [Cybrary](https://cybrary.it/) (partly for free, videos, learning paths, exams preparation)
+- [x] [Let's Defend](https://letsdefend.io/) (Blue Team, Hands-On SOC Analyst Training)
+- [x] [Root Me](https://www.root-me.org/?lang=en) (+500 challenges, some free)
+- [x] [HackXExpert labs](https://hackxpert.com/labs/)
+- [x] [Certified Secure](https://www.certifiedsecure.com/) (quiz)
+- [x] [Try2HackMe](https://try2hack.me/) (game)
+- [x] [echoCTF.RED](https://echoctf.red/) (hacking laboratories)
+- [x] [VulnHub](https://www.vulnhub.com/) (practice stuff)
+- [x] [OverTheWire](https://overthewire.org/wargames/) (https://overthewire.org/wargames/)
+- [x] [PentesterLab](https://pentesterlab.com/bootcamp) (blog, free, short articles and more)
+- [x] [Cryptohack](https://cryptohack.org/courses/) (courses & challenges, mainly cryptoghraphy and mathematics)
 
 #### Bug Bounty
 ---
