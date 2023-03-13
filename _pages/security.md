@@ -36,6 +36,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] Silence on the Wire: A Field Guide to Passive Reconnaissance and Indirect Attacks, Michał Zalewski, 2005
 - [x] The Tangled Web: A Guide to Securing Modern Web Applications, Michał Zalewski, 2011
 - [x] [Schneier on Security](https://www.schneier.com/)
+- [x] [Security concepts explained as simple sketches](https://securityzines.com/)
 
 #### Privacy
 ---
