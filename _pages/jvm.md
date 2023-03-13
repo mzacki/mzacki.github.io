@@ -42,6 +42,7 @@ Most of them - old school, but still worth reading.
 - [x] Grokking Algorithms. An illustrated guide for programmers and other curious people, Aditya Y. Bhargava, Manning, 2016
 - [x] **Informatyka. Wirtualna podróż w świat systemów i sieci komputerowych**, Mirosław Hajder, Heorhii Loutski, Wiesław Stręciwilk, 2002 (*It is still an up-to-date knowledge source for computer programmers.
 Some chapters are very easy, some others contain a lot of mathematics, formulas and computer science theory. Overall, a nice introduction into several areas of computer science.*)
+- [x] [Goalkicker's Algorithms Book](https://goalkicker.com/AlgorithmsBook/)
 
 #### Resources
 ---
@@ -52,6 +53,7 @@ Some chapters are very easy, some others contain a lot of mathematics, formulas 
 - [x] Contribute to [ZeptoN](https://github.com/ZeptoN-Programming-Language) - simple JVM language by [William Gilreath](https://github.com/wgilreath)
 - [x] Yong Mook Kim's website - [mkyong.com (Java and Spring)](https://mkyong.com/)
 - [x] [Cay Horstmann's home page + blog + more](https://horstmann.com/)
+- [x] [Goalkicker's Java Notes for Professionals](https://books.goalkicker.com/JavaBook/)
 
 #### Videos
 ----

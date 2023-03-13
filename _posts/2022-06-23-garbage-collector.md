@@ -2,6 +2,7 @@
 layout: single
 title: "Java: Garbage collector"
 date:   2022-06-23 20:10
+last_modified_at: 2023-03-07 8:08
 description: Garbage collector in Java.
 
 categories:

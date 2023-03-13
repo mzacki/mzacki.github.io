@@ -58,6 +58,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [freeCodeCamp: How to create your own command in Linux](https://www.freecodecamp.org/news/how-to-create-your-own-command-in-linux/)
 - [x] [Linux terminal for beginners - short intro](https://www.freecodecamp.org/news/command-line-for-beginners/#ourfirstscript)
 - [x] [Basic Linux networking commands](https://www.freecodecamp.org/news/linux-networking-commands-for-beginners/)
+- [x] [Goalkicker's Linux Notes for Professionals](https://goalkicker.com/LinuxBook/)
+- [x] [Goalkicker's Bash Notes for Professionals](https://goalkicker.com/BashBook/)
 - [x] BorgBackup [repo](https://github.com/borgbackup) and [website](https://www.borgbackup.org/) with cloud [BorgBase](https://www.borgbase.com/)
 - [x] [Age - command-line encryption tool and password manager](https://github.com/FiloSottile/age)
 - [x] [btop++](https://github.com/aristocratos/btop) - command-line OS resources monitor (C++), [bpytop](https://github.com/aristocratos/bpytop) (Python)
@@ -66,6 +68,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 ---
 
 - [x] [30 days of Python](https://github.com/Asabeneh/30-Days-Of-Python)
+- [x] [Goalkicker's Python Notes for Professionals](https://goalkicker.com/PythonBook/)
 
 #### Repositories
 ---
