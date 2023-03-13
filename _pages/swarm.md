@@ -29,6 +29,7 @@ permalink: /swarm/
 - [x] [Ant Colony Optimization with a Java Example](https://www.baeldung.com/java-ant-colony-optimization)
 - [x] [Swarm Intelligence to improve network & device security](https://www.darkreading.com/vulnerabilities-threats/swarm-intelligence-may-be-just-the-ticket-for-improved-network-device-security)
 - [x] [Intrusion Detection Using Swarm Intelligence](https://ieeexplore.ieee.org/abstract/document/8881840)
+- [x] [ChatGPT: Jack of all trades, master of none](https://arxiv.org/pdf/2302.10724.pdf?fbclid=PAAaYnojBMWlYbqvCkQgFA6KkZuboo6BOTQU8iWyiVJ0m3NSABtZFmPeQcyTk)
 
 #### Videos
 
@@ -38,3 +39,8 @@ permalink: /swarm/
 - [x] [2019 - Patryk Pilarski - Apache Spark vs Machine Learning](https://www.youtube.com/watch?v=Ai8MdBKeHgc)
 - [x] [Massive Parallelism with GPUs in Java by Adam Roberts](https://www.youtube.com/watch?v=CIjdipU66qw)
 - [x] [Neural Networks: From Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+
+#### Courses
+
+- [x] [Harvard CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0)
+- [x] [Harvard Data Science: Machine Learning](https://pll.harvard.edu/course/data-science-machine-learning?delta=5)
