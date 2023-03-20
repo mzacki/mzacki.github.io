@@ -37,6 +37,8 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] The Tangled Web: A Guide to Securing Modern Web Applications, Michał Zalewski, 2011
 - [x] [Schneier on Security](https://www.schneier.com/)
 - [x] [Security concepts explained as simple sketches](https://securityzines.com/)
+- [x] [Michał Zalewski blog (retired)](https://lcamtuf.blogspot.com/)
+- [x] [Michał Zalewski website](https://lcamtuf.coredump.cx/)
 
 #### Privacy
 ---
@@ -80,6 +82,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Java Cryptography](https://resources.oreilly.com/examples/9781565924024/)
 - [x] [Java Security](https://resources.oreilly.com/examples/9780596001575/)
 - [x] Contribute to [Signal for Android](https://github.com/signalapp/Signal-Android) (Java + Kotlin)
+- [x] [Haven / GuardianProject](https://github.com/guardianproject/haven) (Java + Kotlin)
 
 #### Videos
 ---
