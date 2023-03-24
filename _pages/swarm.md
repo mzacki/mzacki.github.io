@@ -30,6 +30,7 @@ permalink: /swarm/
 - [x] [Swarm Intelligence to improve network & device security](https://www.darkreading.com/vulnerabilities-threats/swarm-intelligence-may-be-just-the-ticket-for-improved-network-device-security)
 - [x] [Intrusion Detection Using Swarm Intelligence](https://ieeexplore.ieee.org/abstract/document/8881840)
 - [x] [ChatGPT: Jack of all trades, master of none](https://arxiv.org/pdf/2302.10724.pdf?fbclid=PAAaYnojBMWlYbqvCkQgFA6KkZuboo6BOTQU8iWyiVJ0m3NSABtZFmPeQcyTk)
+- [x] [Stanford Alpaca: A Strong Open-Source Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
 
 #### Videos
 

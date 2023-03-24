@@ -2,6 +2,7 @@
 layout: single
 title: "LibreWolf review"
 date:   2023-02-23 17:29
+last_modified_at: 2023-03-20 18:37
 description: Private Firefox-based browser for Linux and macOS.
 
 categories:
@@ -228,3 +229,12 @@ That makes it a great resource for learning.
 
 P.S. Greetings to the Wolves team (not related to LibreWolf community), where I had first opportunity to learn Linux environment. 
 Everything that has wolfish features (like wolfish name) reminds me of the team.
+
+P.S.2 Update as of March 20, 2023:
+
+LibreWolf lists all its subpages when ```about:about``` is being put as a URL address:
+
+<div style="text-align: center;" class="image-medium">
+<img src="/assets/images/librewolf_about.png"  alt="LibreWolf about" title="LibreWolf about">
+</div>
+<br>

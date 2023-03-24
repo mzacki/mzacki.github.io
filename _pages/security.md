@@ -36,6 +36,9 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] Silence on the Wire: A Field Guide to Passive Reconnaissance and Indirect Attacks, Michał Zalewski, 2005
 - [x] The Tangled Web: A Guide to Securing Modern Web Applications, Michał Zalewski, 2011
 - [x] [Schneier on Security](https://www.schneier.com/)
+- [x] [Security concepts explained as simple sketches](https://securityzines.com/)
+- [x] [Michał Zalewski blog (retired)](https://lcamtuf.blogspot.com/)
+- [x] [Michał Zalewski website](https://lcamtuf.coredump.cx/)
 
 #### Privacy
 ---
@@ -57,7 +60,9 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [freeCodeCamp: Introduction to Linux](https://www.freecodecamp.org/news/introduction-to-linux)
 - [x] [freeCodeCamp: How to create your own command in Linux](https://www.freecodecamp.org/news/how-to-create-your-own-command-in-linux/)
 - [x] [Linux terminal for beginners - short intro](https://www.freecodecamp.org/news/command-line-for-beginners/#ourfirstscript)
+- [x] [Basic Linux commands](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
 - [x] [Basic Linux networking commands](https://www.freecodecamp.org/news/linux-networking-commands-for-beginners/)
+- [x] [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
 - [x] [Goalkicker's Linux Notes for Professionals](https://goalkicker.com/LinuxBook/)
 - [x] [Goalkicker's Bash Notes for Professionals](https://goalkicker.com/BashBook/)
 - [x] BorgBackup [repo](https://github.com/borgbackup) and [website](https://www.borgbackup.org/) with cloud [BorgBase](https://www.borgbase.com/)
@@ -79,6 +84,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Java Cryptography](https://resources.oreilly.com/examples/9781565924024/)
 - [x] [Java Security](https://resources.oreilly.com/examples/9780596001575/)
 - [x] Contribute to [Signal for Android](https://github.com/signalapp/Signal-Android) (Java + Kotlin)
+- [x] [Haven / GuardianProject](https://github.com/guardianproject/haven) (Java + Kotlin)
 
 #### Videos
 ---

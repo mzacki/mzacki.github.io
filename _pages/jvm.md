@@ -54,6 +54,8 @@ Some chapters are very easy, some others contain a lot of mathematics, formulas 
 - [x] Yong Mook Kim's website - [mkyong.com (Java and Spring)](https://mkyong.com/)
 - [x] [Cay Horstmann's home page + blog + more](https://horstmann.com/)
 - [x] [Goalkicker's Java Notes for Professionals](https://books.goalkicker.com/JavaBook/)
+- [x] [Gregor Ulm](https://gregorulm.com/)
+- [x] [The Code Cop](http://blog.code-cop.org/)
 
 #### Videos
 ----
@@ -107,6 +109,7 @@ Some chapters are very easy, some others contain a lot of mathematics, formulas 
 ---
 
 - [x] Grokking Functional Programming, Michał Płachta, Manning, 2022
+- [x] Functional Programming in Scala, Michael Pilquist, Rúnar Bjarnason, and Paul Chiusano, Second Edition, Manning, 2021
 - [x] Scala (including Haskell and math): https://niqdev.github.io/scala-fp/docs/book.html
 - [x] Scala et consortes: http://writeonly.pl/
 - [x] [Alvin Alexander's page](https://alvinalexander.com/), author of books on Scala and functional programming
@@ -144,6 +147,7 @@ Some chapters are very easy, some others contain a lot of mathematics, formulas 
 #### Functional Java
 ---
 
+- [x] [Functional Programming in Java Course](https://www.freecodecamp.org/news/functional-programming-in-java-course/)
 - [x] [4Developers 2018: Monady dla zwykłego Javowca (Jarek Ratajski)](https://youtu.be/8idt_VpS6XQ)
 - [x] [Devoxx - Functional Programming Patterns with Java8 with Victor Rentea](https://www.youtube.com/watch?v=F02LKnWJWF4)
 - [x] [Jarek Ratajski - Lambda Core – HardCore](https://www.youtube.com/watch?v=GTxXZ9Gb1Us)
