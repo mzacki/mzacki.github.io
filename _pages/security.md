@@ -100,6 +100,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Michał Zalewski website](https://lcamtuf.coredump.cx/)
 - [x] The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet, David Kahn, 1996
 - [x] Cryptography and Network Security, Seventh Edition, William Stallings, Prentice Hall, 2016
+- [x] [Handbook of Applied Cryptography](https://cacr.uwaterloo.ca/hac/), Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone, CRC Press
 
 #### Privacy books & websites
 ---
@@ -108,6 +109,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Michael Bazzell's website](https://inteltechniques.com/index.html)
 - [x] How To Be Invisible: Protect Your Home, Your Children, Your Assets, and Your Life, J. J. Luna, Thomas Dunne Books, New York, 2012
 - [x] Personal Digital Security: Protecting Yourself from Online Crime 2016 Revision, Michael Bazzell
+- [x] The Art of Invisibility, Kevin Mitnick
 
 #### OSINT: books & manuals
 ---
