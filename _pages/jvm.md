@@ -35,6 +35,7 @@ Most of them - old school, but still worth reading.
 - [x] **System Performance: Enterprise and the Cloud**, 2nd Edition, Brendan Gregg, Pearson, 2020
 - [x] **High-Performance Java Persistence**, Vlad Mihalcea, 2016
 - [x] **The Optimizing Java: Practical Techniques for Improving JVM Application Performance**, Ben Evans, James Gough, Chris Newland, O'Reilly, 2018
+- [x] **[The Java Virtual Machine Specification](https://docs.oracle.com/javase/specs/jvms/se17/html/index.html)** or any book on the topic
 
 #### Computer science
 ---

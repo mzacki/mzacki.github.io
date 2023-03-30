@@ -6,3 +6,10 @@ Quine
 The Year of The Cat
 Shisa Kanko https://en.wikipedia.org/wiki/Pointing_and_calling
 Heap vs Stack (Heap pollution, https://www.baeldung.com/java-varargs)
+ClassLoaders
+scripting engines
+Java Security Basics (how to start, areas, main books and tutorials)
+Java Security Basics II (architecture, JAAS, security manager, bytecode verifier, compilation constraints)
+bytecode verifier example (cracking bytecode part II), class encryption
+hashing 2
+sql cheetsheet
