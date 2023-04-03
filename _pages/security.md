@@ -70,7 +70,7 @@ permalink: /security/
 - [x] [Kontra - Application Security Training by ThriveDX](https://application.security/free/owasp-top-10) - many of the OWASP Top Ten Exercises free and a free trial, interactive, but nice old-school design (I'd say Windows 98 / Win XP style)
 - [x] [Appsec Engineer](checkout.appsecengineer.com/free) - access to 7 courses for 15 days
 
-**Security in general, cryptography, privacy***
+**Security in general, cryptography, privacy, mathematics**
 
 - [x] [+7000 courses related to security lauched by world univerities: including > 2500 for free.](https://www.classcentral.com/search?q=security)
 - [x] [Privacy: +1000 courses available, including > 500 free.](https://www.classcentral.com/search?q=privacy)
@@ -78,6 +78,8 @@ permalink: /security/
 - [x] [Coursera: cryptography courses](https://www.coursera.org/search?query=cryptography&), including legendary **Dan Boneh's [Cryptography I](https://www.coursera.org/learn/crypto) & [Cryptography II](https://www.coursera.org/learn/crypto2)**
 - [x] [Coursera: security](https://www.coursera.org/search?query=security&) and [privacy](https://www.coursera.org/search?query=privacy) courses
 - [x] [Web Security Academy of PortSwigger](https://portswigger.net/web-security)
+- [x] [Wolfram Cryptography](https://www.wolfram.com/wolfram-u/courses/finance/introduction-to-cryptography/)
+- [x] [Khan Academy Math](https://www.khanacademy.org/math)
 
 #### Must-read: security books & blogs
 ---
@@ -154,6 +156,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Linux terminal for beginners - short intro](https://www.freecodecamp.org/news/command-line-for-beginners/#ourfirstscript)
 - [x] [Basic Linux commands](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
 - [x] [Basic Linux networking commands](https://www.freecodecamp.org/news/linux-networking-commands-for-beginners/)
+- [x] [Linux commands tutorial](https://linuxopsys.com/)
 - [x] [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
 - [x] [Goalkicker's Linux Notes for Professionals](https://goalkicker.com/LinuxBook/)
 - [x] [Goalkicker's Bash Notes for Professionals](https://goalkicker.com/BashBook/)
