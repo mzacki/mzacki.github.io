@@ -118,6 +118,7 @@ If this book was updated now and edited in English (and maybe extended in some a
 
 - [x] OSINT Techniques: Resources for Uncovering Online Information - 10th Edition (2023), Michael Bazzell
 - [x] [Open Source Intelligence Tools and Resources Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
+- [x] [non-typical OSINT guide GitHub repo](https://github.com/OffcierCia/non-typical-OSINT-guide) - a very recommended treasure trove
 
 #### OSINT: cybersecurity search engines
 ---
