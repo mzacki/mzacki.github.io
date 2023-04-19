@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet"
 date:   2023-04-13 00:23
-description: "SQL cheatsheet for Java developers: basic SELECT, Boolean operators, mathematics and other tricks"
+description: "SQL cheatsheet for Java developers: basic SELECT, Boolean operators, mathematics and other tricks."
 
 categories:
 
