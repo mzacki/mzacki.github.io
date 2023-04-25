@@ -12,6 +12,8 @@ tags:
 
 ---
 
+Previously on SQL: [basic SELECT, Boolean operators, mathematics and other tricks](/sql-cheatsheet)
+
 #### Aggregations
 
 Aggregations are SQL commands that add (sum up) values, count occurences, find minimum, maximum and average values from given columns.
