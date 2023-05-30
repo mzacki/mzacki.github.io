@@ -36,6 +36,8 @@ Most of them - old school, but still worth reading.
 - [x] **High-Performance Java Persistence**, Vlad Mihalcea, 2016
 - [x] **The Optimizing Java: Practical Techniques for Improving JVM Application Performance**, Ben Evans, James Gough, Chris Newland, O'Reilly, 2018
 - [x] **[The Java Virtual Machine Specification](https://docs.oracle.com/javase/specs/jvms/se17/html/index.html)** or any book on the topic
+- [x] **[Java 9 Modularity: Patterns And Practices For Developing Maintainable Applications](https://javamodularity.com)** Sander Mak, Paul Bakker, O'Reilly, 2023
+- [x] **[Best Books to Become Better Java Developer](https://shepherd.com/best-books/becoming-a-better-java-developer)** at Shepherd.com
 
 #### Computer science
 ---
