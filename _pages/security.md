@@ -53,6 +53,7 @@ permalink: /security/
 - [x] [Diving Java ecosystem security with DevOps and OpenSource](https://www.youtube.com/watch?v=ZbR8cZCk9Cw)
 - [x] [Fuzzing Java with Jazzer - Java User Group Switzerland](https://www.youtube.com/watch?v=YRporP5p1pc)
 - [x] [Exploring Java Heap Dumps Java Language label Ryan Cuprak](www.youtube.com/watch?v=9Cnm2lFBe0I)
+- [x] [DevSecCon videos](https://www.devseccon.com/videos)
 
 #### Courses
 ---
