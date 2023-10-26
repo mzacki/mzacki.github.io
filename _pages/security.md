@@ -9,7 +9,7 @@ permalink: /security/
 
 - [x] The CERT Oracle Secure Coding Standard for Java, Fred Long, Dhruv Mohindra, Robert C. Seacord, Dean F. Sutherland, David Svoboda, 2011
 - [x] Java Coding Guidelines: 75 Recommendations for Reliable and Secure Programs, Fred Long, Dhruv Mohindra, Robert C. Seacord, Dean F. Sutherland, David Svoboda, 2013
-- [x] [SEI CERT Oracle Coding Standard for Java](https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java)
+- [x] [SEI CERT Oracle Coding Standard for Java](https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java){:target="_blank"}
 - [x] Beginning Cryptography with Java, David Hook, Wiley, 2005
 - [x] Iron-Clad Java: Building Secure Web Applications, Jim Manico, August Detlefsen, Oracle, 2014
 - [x] Java Cryptography, Jonathan B. Knudsen, O'Reilly, 1998
