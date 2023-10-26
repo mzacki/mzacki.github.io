@@ -82,6 +82,15 @@ permalink: /security/
 - [x] [Wolfram Cryptography](https://www.wolfram.com/wolfram-u/courses/finance/introduction-to-cryptography/)
 - [x] [Khan Academy Math](https://www.khanacademy.org/math)
 
+#### How to start in security
+
+- [x] **[Starting InfoSec career - great summary](https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/)** For Java programmers, blue team roles
+like secure development, threat intel and research, possibly also indentity management positions, security engineering. Red team roles for Java programmers: vulnerability research and mabye pentesting (might require full stack & CS knowledge) seems to be the most suitable.
+- [x] **[How to Build a Cybersecurity Career](https://danielmiessler.com/p/build-successful-infosec-career/)**
+- [x] Navigating the Cybersecurity Career Path, Hellen E. Patton, Wiley 2021
+- [x] Confident Cybersecurity, Jessica Barker
+- [x] **[A Tribe of Hackers books](https://www.tribeofhackers.com/)**
+
 #### Must-read: security books & blogs
 ---
 
@@ -101,7 +110,6 @@ If this book was updated now and edited in English (and maybe extended in some a
 - [x] [Security concepts explained as simple sketches](https://securityzines.com/)
 - [x] [Michał Zalewski blog (retired)](https://lcamtuf.blogspot.com/)
 - [x] [Michał Zalewski website](https://lcamtuf.coredump.cx/)
-- [x] The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet, David Kahn, 1996
 - [x] Cryptography and Network Security, Seventh Edition, William Stallings, Prentice Hall, 2016
 - [x] [Handbook of Applied Cryptography](https://cacr.uwaterloo.ca/hac/), Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone, CRC Press
 

@@ -50,6 +50,7 @@ Some chapters are very easy, some others contain a lot of mathematics, formulas 
 #### Resources
 ---
 
+- [x] [dev.java: The Destination for Java Developers](https://dev.java/) 
 - [x] [Oracle Learning Explorer - Free Training & Accreditation](https://education.oracle.com/learning-explorer), including [Java](https://mylearn.oracle.com/ou/learning-path/java-explorer/79726), SQL and Oracle Database
 - [x] [Design patterns repo](https://github.com/iluwatar/java-design-patterns): contribute or learn
 - [x] [Algorithms & data structures project](https://github.com/williamfiset/Algorithms)
