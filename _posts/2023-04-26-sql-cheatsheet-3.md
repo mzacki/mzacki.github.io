@@ -111,7 +111,7 @@ SELECT
 
 #### Inner join
 
-``INNER JOIN`` conects records from two (or even more) tables. 
+``INNER JOIN`` connects records from two (or even more) tables. 
 
 To match a record from one table to relevant record from another table, it uses
 fields (columns) marked as **keys**: **primary key** and **foreign key**, so that primary key from a record in one table points to the foreign key of the relevant record in connected table.
