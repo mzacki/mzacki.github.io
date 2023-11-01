@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet: part 3"
 date:   2023-04-26 01:23
-description: "SQL for Java developers: union vs join, left join, right join, inner vs outter join."
+description: "SQL basics for Java developers: union vs join, left join, right join, inner vs outter join."
 
 categories:
 - SQL, database, data
@@ -111,7 +111,7 @@ SELECT
 
 #### Inner join
 
-``INNER JOIN`` conects records from two (or even more) tables. 
+``INNER JOIN`` connects records from two (or even more) tables. 
 
 To match a record from one table to relevant record from another table, it uses
 fields (columns) marked as **keys**: **primary key** and **foreign key**, so that primary key from a record in one table points to the foreign key of the relevant record in connected table.

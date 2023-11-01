@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet: part 4"
 date:   2023-05-18 05:23
-description: "SQL for Java developers: CRUD operations, n+1 problem, Flyway & Liquibase migrations."
+description: "Medium SQL for Java developers: CRUD operations, n+1 problem, Flyway & Liquibase migrations."
 
 categories:
 - SQL, database, data
