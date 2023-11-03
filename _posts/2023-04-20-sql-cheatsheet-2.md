@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet: part 2"
 date:   2023-04-19 18:23
-description: "SQL basics for Java developers: aggregations, group by, where vs having. "
+description: "Basic SQL for Java developers: aggregations, group by, where vs having. "
 
 categories:
 - SQL, database, data
