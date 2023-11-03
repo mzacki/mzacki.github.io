@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet: part 3"
 date:   2023-04-26 01:23
-description: "SQL basics for Java developers: union vs join, left join, right join, inner vs outter join."
+description: "Basic SQL for Java developers: union vs join, left join, right join, inner vs outter join."
 
 categories:
 - SQL, database, data

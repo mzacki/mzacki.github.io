@@ -2,7 +2,7 @@
 layout: single
 title: "SQL cheatsheet: part 5"
 date:   2023-06-20 04:23
-description: "Basic SQL for Java developers: recapitulation."
+description: "Medium SQL for Java developers: recapitulation."
 
 categories:
 - SQL, database, data
