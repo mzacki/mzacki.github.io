@@ -81,7 +81,7 @@ The explanation created by ChatGPT contains rather obvious, self-explanatory sta
 
 > JDBC means Java Database Connectivity.
 > 
-> It's Java API designed to standarize and simplify the process of connecting Java software to relational database management systems (RDBMS)
+> It's Java API (a.k.a. "abstraction layer") designed to standarize and simplify the process of connecting Java software to relational database management systems (RDBMS)
 
 In short:
 
