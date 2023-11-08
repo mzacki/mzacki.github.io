@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "SQL security 1"
+title: "SQL security intro"
 date:   2023-09-11 20:23
-description: "Advanced SQL for Java developers: intro to security."
+description: "Security in normalized and denormalized database, integrity, idempotent vs deterministic functions."
 
 categories:
 - SQL, database, data, security
