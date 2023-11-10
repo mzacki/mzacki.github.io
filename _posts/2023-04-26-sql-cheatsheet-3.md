@@ -109,6 +109,9 @@ SELECT
     CONCAT(last_name, ' ', first_name), customer_id FROM customer;
 ```
 
+> The columns selected in both SELECT clauses should be of the same type in some flavours (Postgres, Oracle).
+> No such requirement in MySQL & MariaDB.
+
 #### Inner join
 
 ``INNER JOIN`` connects records from two (or even more) tables. 

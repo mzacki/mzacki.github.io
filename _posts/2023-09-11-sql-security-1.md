@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SQL security intro"
+title: "SQL security basics"
 date:   2023-09-11 20:23
 description: "Security in normalized and denormalized database, integrity, idempotent vs deterministic functions."
 
