@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "SQL cheatsheet: part 7"
-date:   2023-08-20 20:23
+date:   2023-08-14 20:23
 description: "Advanced SQL for Java developers: cursor, function, index."
 
 categories:

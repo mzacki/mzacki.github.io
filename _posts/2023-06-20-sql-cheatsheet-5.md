@@ -17,7 +17,7 @@ Previously on SQL: [CRUD, n+1, migrations](/sql-cheatsheet-4)
 ### Summary: SQL basics for Java devs
 
 Practice your SQL skills. Do not have a feeling that you need to start from the scratch over and over again! 
-In particular, if you're a beginner or you do not work with SQL very often (it is not uncommon).
+In particular, if you're a beginner, or you do not work with SQL very often (it is not uncommon).
 SQL problems can be like a Nemesis: I saw senior architects hairs growing grey because of complex SQL issues affecting company performance.
 They were stammering trying to admit that there is a bug that no one is able to easily resolve.
 
