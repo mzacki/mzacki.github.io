@@ -252,3 +252,17 @@ Stored procedures support conditional logic, error handling, and the ability to 
 Stored procedures can be used for **data manipulation**, such as CRUD operations.
 They can significantly improve security and performance.
 
+### Summary (updated 15.11.2023) 
+
+### What is stored procedure? What to use it for?
+
+Stored procedures are precompiled database scripts (group of statements) that can be executed from a database client, such as a Java application, using JDBC.
+Stored procedures offer better performance, reduced network traffic, and improved security.
+They can encapsulate complex SQL logic and business rules.
+JDBC provides the CallableStatement interface for executing stored procedures.
+
+### What is database view?
+
+SQL view can be considered as a virtual table that consolidates data from one or more tables.
+Contrary to physical tables, view doesn’t store data itself and exists only logically in the database, where it is saved.
+Unlike procedures, view doesn't have logic (it is only for presentation). No params, no storage and it's read-only.

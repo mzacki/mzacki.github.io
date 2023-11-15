@@ -343,3 +343,51 @@ It's important to note that **not all database systems support `RIGHT JOIN` and 
 and you may need to use alternative methods to achieve the same results in those cases, such as swapping the order of tables or using UNION clauses.
 
 See previous article on `JOIN`s: [union vs join, left join, right join, inner vs outter join](/sql-cheatsheet-3)
+
+### Update: 15.11.2023 - other questions
+
+### Inner join vs outer join: what's the difference?
+
+An inner join returns only the rows from both tables that satisfy the specified join condition (can be joined by indicated field).
+Rows that do not have matching values in the joined columns are excluded from the result set.
+
+An outer join returns all the rows from one table and the matching rows from the other table, being connected by indicated field.
+But if there is no match, the result will contain `NULL` values for columns from the table that does not have a matching row.
+
+### How SQL `GROUP BY` command works?
+
+`GROUP BY` clause is used to group rows that have the same values in specified columns into summary rows,
+often for the purpose of applying aggregate functions to each group:
+
+```sql
+SELECT security_branch, COUNT(user_id) as user_count, MAX(last_login_datetime) as latest_login
+FROM cybersecurity_users
+GROUP BY security_branch;
+```
+with result:
+
+```shell
++-------------------+------------+------------------------+
+| security_branch   | user_count | latest_login  |
++-------------------+------------+------------------------+
+| Threat Analysis   | 25         | 2023-11-15T08:30:00Z   |
+| Incident Response | 18         | 2023-09-28T15:45:00Z   |
+| Penetration Testing | 12       | 2023-07-05T12:10:00Z   |
+| Security Operations | 30      | 2023-08-10T18:22:30Z   |
+| Compliance        | 15         | 2023-09-02T09:55:45Z   |
++-------------------+------------+------------------------+
+```
+
+### What is ORM?
+
+ORM stands for Object-Relational Mapping. 
+It is a programming paradigm that allows you to interact with a relational database using an object-oriented programming.
+ORM consists on mirroring logical entries (entities) from database tables to entites written in programing language on the application side.
+
+Key features:
+- [x] Mapping: ORM systems map database tables to classes, with each row in a table corresponds to an instance of a class, and each column corresponds to an attribute or property of that class.
+- [x] Data abstraction: ORM abstracts away the details of database interactions, you deal with the objects / classes, not with the SQL queries.
+- [x] CRUD: ORM systems provide methods and APIs for performing CRUD (Create, Read, Update, Delete) operations on database entities.
+- [x] Relationships: ORM systems handle relationships between entities, such as one-to-one, one-to-many, and many-to-many relationships.
+- [x] Portability: ORM systems often provide a level of database portability, allowing developers to switch between different database management systems (e.g., MySQL, PostgreSQL, Oracle) with minimal code changes. The ORM system abstracts the differences in SQL syntax and handles them internally.
+- [x] Performance optimization: ORM systems may include features for optimizing database access, such as lazy loading (loading data on demand), caching, and query optimization.
