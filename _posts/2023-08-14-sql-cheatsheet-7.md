@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "SQL cheatsheet: part 7"
-date:   2023-08-20 20:23
-description: "Advanced SQL for Java developers: cursor, function, index."
+date:   2023-08-14 20:23
+description: "Advanced SQL for Java devs: cursor, function, trigger, index."
 
 categories:
 - SQL, database, data
@@ -14,7 +14,12 @@ tags:
 
 Previously on SQL: [Advanced SQL for Java developers: procedure, view](/sql-cheatsheet-6)
 
-### Coursor
+### What is SQL coursor?
+
+It allows you to retrieve and manipulate rows from a result set one at a time. Mainly used for iteration. Rows under cursor can be transformed (e.g. updated, deleted).
+Other purposes: pagination, data validation.
+
+### Coursor: example of use
 
 The provided code is a SQL script that creates a stored procedure in a database.
 This stored procedure uses a cursor to iterate through records in a table and display the values of the columns in each row as it traverses them.
@@ -158,7 +163,88 @@ END$$
 SELECT logarithm(2, 128)$$
 ```
 
-### Index
+### Function vs stored procedure
+
+Function:
+- [x] database object, a set of SQL statements or expressions wrapped into a reusable and named single unit
+- [x] returns value(s) (single value - scalar function, result set - table-valued functions).
+- [x] they can be used as expressions in queries, such as SELECT, WHERE...
+- [x] scalar functions can be used to modify data, but they are typically designed for computations and transformations
+- [x] designed to be used as read-only, they cannot contain control statements like COMMIT or ROLLBACK
+
+Stored procedures:
+- [x] may or may not return values - it is optional
+- [x] called explicitly using the EXECUTE or EXEC statement, cannot be used directly in a SELECT statement or a WHERE clause
+- [x] can include data modification statements (INSERT, UPDATE, DELETE) and transaction control statements (COMMIT, ROLLBACK)
+- [x] suitable for operations that involve both reading and writing data
+- [x] can contain transaction control statements, allowing for explicit control over transactions
+
+### Triggers
+
+A trigger is a set of instructions or a program that is automatically executed ("triggered") in response to specific events on a particular table or view.
+These events can include data manipulation language (DML) events like `INSERT`, `UPDATE`, `DELETE`, or data definition language (DDL) events like `CREATE`, `ALTER`, or `DROP`.
+Triggers are often used to enforce business rules, maintain referential integrity, and automate certain tasks.
+
+### DML triggers
+
+These triggers respond to data manipulation language (DML) events, such as `INSERT`, `UPDATE`, and `DELETE` operations on a table.
+Common use cases include enforcing data integrity rules, auditing changes, and automating specific actions based on data modifications.
+Example of an `AFTER INSERT` trigger:
+
+```sql
+CREATE TRIGGER AfterInsertTrigger
+AFTER INSERT
+ON Employees
+FOR EACH ROW
+BEGIN
+    -- Trigger logic, e.g., update a related table, log the change, etc.
+END;
+```
+
+### DDL triggers
+
+These triggers respond to data definition language (DDL) events, such as CREATE, ALTER, and DROP operations on a database or table.
+Common use cases include restricting certain schema modifications, logging schema changes, or implementing specific actions when database objects are altered.
+Example of a BEFORE CREATE trigger:
+
+```sql
+CREATE TRIGGER BeforeCreateTrigger
+BEFORE CREATE
+ON DATABASE
+BEGIN
+    -- Trigger logic, e.g., check if the user has permission to create a table
+END;
+```
+
+### What does the trigger consist of?
+
+Each trigger consist of three elements:
+
+- [x] trigger event (when it should happen?) - specifies the event that causes the trigger to be executed (e.g., AFTER INSERT, BEFORE UPDATE)
+- [x] trigger condition (why it should happen?) - **optionally** specifies a condition that must be true for the trigger to execute
+- [x] trigger action (what should happen?) - contains SQL statements or procedures that are executed when the trigger is fired
+
+### How triggers are used?
+
+- [x] to enforce business rules,
+- [x] to enforce / maintain referential integrity rules
+- [x] auditing & logging schema changes
+- [x] automating data modifications
+- [x] restricting certain schema modifications, logging schema changes
+- [x] to database objects
+
+### What is the risk of using triggers?
+
+They introduce additional complexity and can impact performance!
+Overuse of triggers can make database behavior less transparent and harder to manage.
+Therefore, triggers are often employed for tasks that are best handled within the database layer (meta-level, database management), such as enforcing integrity constraints or automating certain actions, rather than for general application logic.
+
+### What is SQL index?
+
+A SQL index consists of a data structure that stores a sorted or hashed subset of the columns from a database table,
+along with pointers to the corresponding rows, to facilitate efficient and quick data retrieval operations.
+
+### Index: more insight
 
 It is a separate bunch of data, created from indexed field (column) and pointer to full record containing such field.
 SQL indexes work by providing (theoretically) a faster way to retrieve data from a database table. 
@@ -250,9 +336,13 @@ It allows for quicker and more efficient retrieval of data, especially when sear
 
 In summary, the key advantages of using a sorted field include the efficiency of Binary Search and the ability to eliminate duplicate searches, both of which significantly enhance query performance and data retrieval speed.
 
-##### Index comes into play
+##### Advantages of using indexes
 
-And now, indexing comes into play.
+And now, indexing comes into play, offering some benefits:
+
+- [x] avoiding a full table scan (row by row), using trees and hashing in searching
+- [x] index is a given field + pointer to the record, so it is fewer data than original record
+- [x] speed up SELECT, WHERE, JOIN, and ORDER BY
 
 As this great [StackOverflow article](https://stackoverflow.com/questions/1108/how-does-database-indexing-work) explains:
 
@@ -264,14 +354,40 @@ To sum up, indexing takes advantage of the fact that data are sorted, and it all
 
 ##### Are there any drawbacks of indexes?
 
-Here, I would like to quote StackOverflow again:
+Unfortunately, nothing comes for free. Here, I would like to quote StackOverflow again:
 
 > The downside to indexing is that these indices require additional space on the disk since the indices are stored together in a table using the MyISAM engine, 
 > this file can quickly reach the size limits of the underlying file system if many fields within the same table are indexed.
 
+In short:
 
+- [x] index takes additional storage space (it needs additional data structure that stores a sorted or hashed subset of the columns)
+- [x] index can slightly slow down write operations (INSERT, UPDATE, DELETE) because the index must be updated when the data changes
 
+### When to use indexes:
 
+- [x] high-cardinality columns (uniqness of data in particular column)
+- [x] frequent searches
+- [x] large tables
+- [x] JOIN, GROUP BY, ORDER
+- [x] unique constraints (PRIMARY_KEY, UNIQUE)
+
+### When not to use indexes:
+
+- [x] small tables
+- [x] sequential data, increasing or decreasing, like timestamps: the benefits of indexing might be limited, as new values are continuously added at one end of the index
+- [x] frequent write operations
+- [x] low-cardinality columns
+- [x] temporary tables
+
+### What is this cardinality, after all?
+
+Cardinality means degree of uniqueness of data values contained in a particular column. 
+High-cardinality refers to columns with values that are very uncommon or unique -
+a good use case to apply indexes: e.g. user_id (which is unique).
+Data of normal-cardinality would be: address, name, etc. 
+And finally, examples of low-cardinality data are booleans, flags, Y/N switch, etc. -
+do not use indexes on such columns!
 
 
 
