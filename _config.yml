@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/mzacki"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/bee.png"
-masthead_title           : "the Bee"
+masthead_title           : "Enter the Bee"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
